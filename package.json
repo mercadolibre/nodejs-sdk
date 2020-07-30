@@ -1,0 +1,7 @@
+{
+  "name": "mercadolibre-nodejs-sdk",
+  "version": "0.0.1",
+  "description": "This is the official NodeJS SDK for the MercadoLibre Marketplace platform.",
+  "license": "Unlicense",
+  "main": "dist/index.js"
+}
