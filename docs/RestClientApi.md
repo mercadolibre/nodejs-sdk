@@ -4,10 +4,56 @@ All URIs are relative to *https://api.mercadolibre.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
+[**resourceDelete**](RestClientApi.md#resourceDelete) | **DELETE** /{resource} | Resource path DELETE
 [**resourceGet**](RestClientApi.md#resourceGet) | **GET** /{resource} | Resource path GET
 [**resourcePost**](RestClientApi.md#resourcePost) | **POST** /{resource} | Resourse path POST
 [**resourcePut**](RestClientApi.md#resourcePut) | **PUT** /{resource} | Resourse path PUT
 
+
+
+## resourceDelete
+
+> resourceDelete(resource, accessToken)
+
+Resource path DELETE
+
+### Example
+
+```javascript
+import meli from 'mercadolibre-nodejs-sdk';
+
+let apiInstance = new meli.RestClientApi();
+let resource = "resource_example"; // String | 
+let accessToken = "accessToken_example"; // String | 
+apiInstance.resourceDelete(resource, accessToken, (error, data, response) => {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully.');
+  }
+});
+```
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **resource** | **String**|  | 
+ **accessToken** | **String**|  | 
+
+### Return type
+
+null (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: Not defined
 
 
 ## resourceGet
